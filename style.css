@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #171010;
+}
+
+.calculator{
+    background-color: #2B2B2B;
+    width: 480px;
+    height: 700px;
+    border-radius: 18px;
+    margin: 2%;
+    display: grid;
+    justify-content: center;
+    row-gap: 0px;
+}
+
+.textfield{
+    width: 423px;
+    background-color: #423F3E;
+    height: 140px;
+    padding-bottom: 20px;
+    margin-top: 6%;
+    text-align: right;
+    color:azure;
+    line-height: 70px;
+    padding-right: 30px;
+    display: grid;
+    justify-content: end;
+}
+
+.button-wrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-right: 30px;
+    width: 423px;
+    height: 450px;
+    column-gap: 10px;
+    row-gap: 30px;
+    font-size: 16px;
+}
+
+.button{
+    margin-left: 30px;
+    background-color: #362222;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:azure;
+    font-size: 16px;
+}
+.buttono{
+    margin-left: 30px;
+    background-color: #2B2B2B;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:azure;
+}
+.operation{
+    margin-left: 30px;
+    background-color: #423F3E;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:azure;
+    font-size: 16px;
+}
+
+.history{
+    font-size: 32px;
+    height: 60px;
+}
+
+.output{
+    font-size: 56px;
+}
+
+.button, .operation{
+    cursor:pointer;
+}
+
+.button:focus, .operation:focus, .buttono:focus{
+    outline: 0;
+}
